@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: supabase/embeddings-generator@v0.0.5 # Find the latest version in the Marketplace
         with:
-          supabase-url: 'https://your-project-ref.supabase.co'
+          supabase-url: 'https://yoywhocjyxkyympcvkei.supabase.co'
           supabase-service-role-key: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           openai-key: ${{ secrets.OPENAI_KEY }}
           docs-root-path: 'docs' # the path to the root of your md(x) files
