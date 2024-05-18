@@ -1,5 +1,5 @@
 name: demo
-description: "A new Flutter project."
+description: 'A new Flutter project.'
 publish_to: 'none'
 version: 0.1.0
 
@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  supabase_flutter: ^2.0.0
+  fetch_client: ^1.0.2
 
 dev_dependencies:
   flutter_test:
