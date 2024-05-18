@@ -185,15 +185,6 @@ This makes macros much more efficient than relying on an secondary tool:
 And also far more efficient, and far less error prone, than manually
 writing solutions to these types of problems yourself.
 
-{% comment %}
-Check out these examples showing the same JSON serialization
-implemented three different ways:
-
-- Using the [`JsonCodable` macro][].
-- Using the [`json_serializable` code gen package][].
-- Manually, [with `dart:convert`][].
-  {% endcomment %}
-
 [build_runner]: /tools/build_runner
 [`JsonCodable` macro]: https://github.com/mit-mit/sandbox/blob/main/explorations/json/dart_jsoncodable/bin/main.dart
 [`json_serializable` code gen package]: https://github.com/mit-mit/sandbox/blob/main/explorations/json/dart_json_serializable/bin/main.dart
